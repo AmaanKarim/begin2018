@@ -12,7 +12,7 @@ PY26 = PY2 and sys.version_info[1] < 7
 
 NAME = 'begin2018'
 AUTHOR = 'A. K.'
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 EMAIL = '14amaakari@oakspark.redbridge.sch.uk'
 LICENSE = 'Unlicense'
 ENTRY_POINTS = {
@@ -24,7 +24,7 @@ DESCRIPTION = (
     'My first python package in github and pypi'
 )
 URL = 'https://github.com/AmaanKarim/begin2018'
-DOWNLOAD_URL = '%s/archive/0.0.1.tar.gz' % URL
+DOWNLOAD_URL = '%s/archive/0.0.2.tar.gz' % URL
 FILES = ['README.rst', 'CHANGELOG.rst']
 KEYWORDS = [
     'python'
@@ -52,8 +52,8 @@ EXTRAS_REQUIRE = {}
 # You do not need to read beyond this line
 PUBLISH_COMMAND = '{0} setup.py sdist bdist_wheel upload -r pypi'.format(
     sys.executable)
-GS_COMMAND = ('gs begin2018 v0.0.1 ' +
-              "Find 0.0.1 in changelog for more details")
+GS_COMMAND = ('gs begin2018 v0.0.2 ' +
+              "Find 0.0.2 in changelog for more details")
 NO_GS_MESSAGE = ('Automatic github release is disabled. ' +
                  'Please install gease to enable it.')
 UPLOAD_FAILED_MSG = (

@@ -1,2 +1,2 @@
 def main():
-    print("I am starting social coding with python")
+    print("I now have submitted it to pypi and shared it in github")
