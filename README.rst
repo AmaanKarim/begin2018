@@ -16,7 +16,15 @@ begin2018
 Installation
 ================================================================================
 
-You can get it:
+
+You can install begin2018 via pip:
+
+.. code-block:: bash
+
+    $ pip install begin2018
+
+
+or clone it and install it:
 
 .. code-block:: bash
 

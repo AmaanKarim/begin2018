@@ -5,7 +5,7 @@ contact: "14amaakari@oakspark.redbridge.sch.uk"
 company: "A. K."
 version: "0.0.1"
 current_version: "0.0.1"
-release: "0.0.0"
+release: "0.0.1"
 copyright_year: 2018
 command_line_interface: "begin"
 entry_point: "begin2018.main:main"
